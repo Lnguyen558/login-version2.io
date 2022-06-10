@@ -1,0 +1,174 @@
+html, body {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Format container */
+  #container
+  {
+    border: 5px double red;
+    background-color: teal;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+
+/* format the card */
+#card
+{
+  border: 4px double red;
+  background-color: pink;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+/* format form  */
+.myForm
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+/* format input box  */
+.input-container
+{
+ display: flex;
+ margin-bottom: 10px;
+}
+
+/* format icon */
+i
+{
+  padding: 5px;
+  margin-right: 8px;
+  background: darkorange;
+  color: red;
+  width: 20px;
+  text-align: center;
+}
+
+/* format logo */
+img
+{
+  padding-bottom: 20px;
+}
+
+/* format placeholder */
+::placeholder
+{
+  text-align: center;
+  color:blue;
+}
+
+/* fomrat input box to change color
+when hover */
+.input-field:hover
+{
+cursor: pointer;
+background-color: yellowgreen;
+}
+
+/* format input field */
+.input-field
+{
+  border: none;
+  background-color: pink;
+  outline:none;
+  border-bottom: 3px solid teal;
+  width: 200px;
+}
+
+/* fomrat button */
+button
+{
+color: red;
+background-color: orange;
+border: none;
+width: 100%;
+border-radius: 20px;
+margin-top: 20px;
+padding: 10px;
+}
+
+/* format button to change color when
+  hovering */
+  button:hover
+  {
+    cursor: pointer;
+    background-color: yellowgreen;
+  }
+  /*  
+  #heading1{
+      text-align: center;
+      padding: 30px;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+  }
+  .myForm{
+      max-width:500px;
+     margin: auto;
+     margin-top: 10px;
+    }
+    
+    .input-container {
+      
+      display: flex;
+      width: 100%;
+      margin-bottom: 15px;
+      
+    }
+    .icon {
+      padding: 10px;
+      background: darkorange;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+    }
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-bottom: 3px solid darkcyan;
+    }
+    .input-field:focus {
+      border: 2px solid darkcyan;
+    }
+  
+    .bttn {
+      background-color:darkorange;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    .bttn:hover {
+      opacity: 1;
+      background-color: darkcyan;
+    }  
+    a:hover{
+      color: blueviolet;
+  }
+  .icon:hover{
+      background-color: darkcyan;
+  }
+
+  */
